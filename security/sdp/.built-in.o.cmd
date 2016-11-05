@@ -1,0 +1,1 @@
+cmd_security/sdp/built-in.o :=  /opt/toolchains/arm-eabi-4.7/bin/arm-eabi-ld -EL    -r -o security/sdp/built-in.o security/sdp/dek.o security/sdp/dek_aes.o security/sdp/sdp_mm.o security/sdp/pub_crypto_emul.o 
